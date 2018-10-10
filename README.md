@@ -5,10 +5,10 @@ Documentation and Utilities related to the L2L Framework.
 
 ## L2L Infrastructure
 ### Gateway
-- repository addr : <git@github.com:i-qiqi/l2l-gateway.git>
+- [`repository addr`](https://github.com/i-qiqi/l2l-gateway)
 
 ### Registry
-- repository addr : <git@github.com:i-qiqi/l2l-registry.git>
+- [`repository addr`](https://github.com/i-qiqi/l2l-registry)
 - registry bug : the front end is not present after the backend has started up.
 ```bash
 # adjust to proper node version
@@ -23,12 +23,12 @@ yarn start
 
 ## L2L Core Components
 ### Vessel enterprise
-Note : suggest that we can refer to the implementation [`ttc-rb-english-campaign`](git@github.com:Activiti/ttc-rb-english-campaign.git)
-- repository addr : <git@github.com:i-qiqi/l2l-vesslel-enterprise.git>
+Note : suggest that we can refer to the implementation [`ttc-rb-english-campaign`](https://github.com/Activiti/ttc-rb-english-campaign)
+- [`repository addr`](https://github.com/i-qiqi/l2l-vesslel-enterprise)
 
 ### VMC(Vessel-Manager-Coordinator)
-Note : suggest that we can refer to the implementation [ttc-connectors-reword](git@github.com:Activiti/ttc-connectors-reward.git)
-- repository addr : <git@github.com:i-qiqi/l2l-vmc.git>
+Note : suggest that we can refer to the implementation [ttc-connectors-reword](https://github.com/Activiti/ttc-connectors-reward)
+- [`repository addr`](https://github.com/i-qiqi/l2l-vmc)
 
 ## L2L Frontend
 ## Reference
