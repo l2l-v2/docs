@@ -27,3 +27,5 @@ dependencies{
 ```
 
 ### Event Dispatcher Mechanism
+- [Cloud Event Listeners](https://www.processon.com/view/link/5b7d4a7fe4b0d4d65be23316)
+- [Internal Event Listeners](https://www.processon.com/view/link/5bc861fee4b08faf8c82aaea)
