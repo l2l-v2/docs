@@ -1,4 +1,4 @@
-# Developement Log
+# Developement Workshop
 ## Start RabbitMQ with Docker
 Please ensure that you have install docker on your PC.
 ```bash
