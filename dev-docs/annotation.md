@@ -1,5 +1,5 @@
 # Annotation On BPMN Model
-> [vessel-process diagram with annotation](https://www.processon.com/diagraming/5b48555fe4b00b08ad1b0f6f)
+> [L2l-v2-collaboration diagram with annotation](https://www.processon.com/diagraming/5b48555fe4b00b08ad1b0f6f)
 
 ## Groovy
 - [Groovy-In-Action](https://www.dropbox.com/s/poku94joag3p8o4/Groovy-in-Action.pdf?dl=0)
