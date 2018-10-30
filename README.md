@@ -34,3 +34,4 @@ Note : suggest that we can refer to the implementation [ttc-connectors-reword](h
 ## Reference
 - [Activiti7 Guide](https://activiti.gitbook.io/activiti-7-developers-guide/components-architecture/activiti-cloud-infrastructure/gateway)
 -  [Cloud native in kubernetes workshop](https://github.com/Activiti/ttc-docs/blob/develop/workshop.md)
+- [L2L-v1 github repository](https://github.com/sonnyhcl/L2L)
