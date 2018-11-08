@@ -6,7 +6,7 @@
 - Temperature messages :
   - <`Topic`: "/temperature" ,`Order`: "cooling" , `Input`: 10℃ >
 - Delay messages :
-  - < `Topic` : "/telay" , `Order`: "postpone"，`Input` ：1h >
+  - < `Topic` : "/delay" , `Order`: "postpone"，`Input` ：1h >
 - From the example we can see that we ues `<Topic, Order >`  to carry the message. Topic-parameter means which tpye of process should receive the message while Order-parameter means which order that is selected from command library the process contains the process should execute and the Input-parameter is parameters the order needs.  
 ### Event Gateway at the process engine level
 When process engine receive a messages it will resolve the Topic-parameter of message at first.Assume the Topic-parameter is Temperature ,then Event Gateway will send the messages to Message Exchange that belong to Temperature(cold-chain) field.
