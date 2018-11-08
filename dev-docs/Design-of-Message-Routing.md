@@ -14,4 +14,4 @@ to be parameters of the order.<br>
 ### Message Collection of Interest at the process instance level
 >Every process instance maintain a Message Collection which contains message type that the process instance interest in.<br>
 ### Messaging schematic
-<img src="https://www.processon.com/view/link/5be3d30fe4b0993bf7213010" />  
+<img src="https://www.processon.com/view/link/5be3d30fe4b0993bf7213010"/>  
