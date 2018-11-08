@@ -1,12 +1,16 @@
 # Hierarchical BPMN Message Routing against Diverse Scenarios
 > Here we discuss the message routing spanning the third-party systems and  the process engine of the host system
+
 ### Message example
->Messages is derived from third-party systems which are accepted by process engines.Here are two examples.Here are two examples, one for temperature messages and one for delay messages.<br>
-Temperature messages:\<Topic:Temperature,Order:cooling,Input:10℃\><br>
-Delay messages:\<Topic:Delay,Order:postpone，Input：1h\><br>
-From the example we can see that we ues \<Topic,Order\> to carrythe message.Topic-parameter means which tpye of process should receive the message while Order-parameter means which order that is selected from command library the process contains the process should execute and the Input-parameter is parameters the order needs.  
+- Messages is derived from third-party systems which are accepted by process engines.Here are two examples.Here are two examples, one for temperature - messages and one for delay messages.
+- Temperature messages :
+  - <`Topic`: "/temperature" ,`Order`: "cooling" , `Input`: 10℃ >
+- Delay messages :
+  - < `Topic` : "/telay" , `Order`: "postpone"，`Input` ：1h >
+
+ From the example we can see that we ues \<Topic,Order\> to carrythe message.Topic-parameter means which tpye of process should receive the message while Order-parameter means which order that is selected from command library the process contains the process should execute and the Input-parameter is parameters the order needs.  
 ### Event Gateway at the process engine level
->When process engine receive a messages it will resolve the Topic-parameter of message at first.Assume the Topic-parameter is Temperature ,then Event Gateway will send the messages to Message Exchange that belong to Temperature(cold-chain) field. 
+>When process engine receive a messages it will resolve the Topic-parameter of message at first.Assume the Topic-parameter is Temperature ,then Event Gateway will send the messages to Message Exchange that belong to Temperature(cold-chain) field.
 ### Message Exchange at the process definition level
 >When messages pass the Event Gateway Message Exchange will handle it.Different Message Exchange contains command library of different field.Message Exchange will resolve Order-parameter to select the corresponding order in command library,and then use the Input-parameter
 to be parameters of the order.<br>
