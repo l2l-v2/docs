@@ -59,7 +59,7 @@ It will request the service of VesselBusinessEntity and set the result of the se
 # Iterative process development
 ## Introduction 
 
-<img src="/home/cx/Desktop/image/the-motivation.jpg" />
+<img src="../images/the-motivation.jpg" />
 The traditional business process model is difficult to cope with the changeable scenario requirements, and can only meet the needs of the main scenario.
 Business people add annotations through modelers to add new capabilities for traditional business process iteration.
 
