@@ -56,3 +56,10 @@ Message routing policy :point_right:https://github.com/l2l-v2/docs/blob/master/d
 ```
 While the process receive delay,the message annotation will be triggered.
 It will request the service of VesselBusinessEntity and set the result of the service return into the process
+# Iterative process development
+## Introduction 
+
+<img src="/home/cx/Desktop/image/the-motivation.jpg" />
+The traditional business process model is difficult to cope with the changeable scenario requirements, and can only meet the needs of the main scenario.
+Business people add annotations through modelers to add new capabilities for traditional business process iteration.
+
