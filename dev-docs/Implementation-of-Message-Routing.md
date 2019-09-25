@@ -12,12 +12,14 @@ To see the schematic diagram:  :point_right: <https://www.processon.com/view/lin
 <process id="vessel-process1" name="vessel-process" isExecutable="true">
 <exchange scenario="cold-chain">
       <message topic= "/temperature">
-          <annotation script="do something" inputvars="temprature , ..." ouputvars="pv1,..."></annotation>
+          <annotation script="do something" inputvars="temprature , ..." ouputvars="pv1,...">
+            </annotation>
       </message>
 </exchange>
 <exchange scenario="IoT">
       <message topic= "/vid/delay">
-          <annotation script="do something" inputvars="duration, ..." ouputvars="delay_time,..."></annotation>
+          <annotation script="do something" inputvars="duration, ..." ouputvars="delay_time,...">
+            </annotation>
       </message>
 </exchange>
   // ignore other default bpmn elements
