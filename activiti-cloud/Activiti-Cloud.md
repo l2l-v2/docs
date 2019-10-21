@@ -29,6 +29,7 @@ Activiti Cloud的目标首重是开发者和DevOps，他们负责搭建基础设
 	- DevOps接受到发布的Runtime Bundles以及Cloud Connectors，并部署到基础设施上
 ## 架构
 <img src="activiti-cloud.png">
+
 - 使用Kubernetes作为部署设施，使用Spring Cloud/Spring Boot开发微服务组件，使用Docker容器化发布组件
 ### Activiti7 Framework
 使用下面技术，使得组件可以很好的与其他Infrestructure整合;
